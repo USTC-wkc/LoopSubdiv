@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GLProgram.cpp" />
+    <ClCompile Include="gl_core_3_3.c" />
+    <ClCompile Include="objloader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glarray.h" />
+    <ClInclude Include="GLProgram.h" />
+    <ClInclude Include="vaomesh.h" />
+    <ClInclude Include="gl_core_3_3.h" />
+    <ClInclude Include="objloader.h" />
+    <ClInclude Include="Loop\cuda_host_helpers.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\math.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\MyLoop.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\obj.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\vector.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h" />
+    <ClInclude Include="VAOImage.h" />
+    <ClInclude Include="Loop\MeshInfo.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="Loop\MatInfo.h">
+      <Filter>Loop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Loop">
+      <UniqueIdentifier>{f92ad8ca-cca8-4568-ba1e-c3931fad8e2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Loop\MyLoop.cu">
+      <Filter>Loop</Filter>
+    </CudaCompile>
+    <CudaCompile Include="test.cu" />
+  </ItemGroup>
+</Project>
