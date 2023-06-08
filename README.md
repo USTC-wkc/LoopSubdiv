@@ -11,4 +11,4 @@ Windows 10
 CUDA(Compute Capability>=11.4)
 
 # Todo:
-The CPU version will soon upload.  
+The CPU version will be uploaded soon.  
