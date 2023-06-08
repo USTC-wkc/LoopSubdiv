@@ -8,7 +8,7 @@ Precompiled binary for UI and mex are provided with the package.
 
 # Requirements:
 Windows 10  
-CUDA(Compute Capability>11.4)
+CUDA(Compute Capability>=11.4)
 
 # Todo:
 The CPU version will soon upload.  
